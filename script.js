@@ -40,7 +40,6 @@ COUNTRIES = [
 
     'Алжир', // Алжир | Алжирская Народная Демократическая Республика
     'Египет', // Каир | Арабская Республика Египет
-    'Западная Сахара', // _ | Сахарская Арабская Демократическая республика
     'Сан-Томе и Принсипи', // Сан-Томе | Демократическая Республика Сан-Томе и Принсипи
     'Чад', // Нджамена | Республика Чад
     'Эфиопия', // Аддис-Абеба | Федеративная Демократическая Республика Эфиопия
@@ -61,5 +60,4 @@ function generate() {
         index = getRandomInt(COUNTRIES.length);
     document.getElementById('result').innerText=COUNTRIES[index];
     ALREADY_WERE.push(COUNTRIES[index]);
-    console.log(COUNTRIES[index],ALREADY_WERE);
 }
